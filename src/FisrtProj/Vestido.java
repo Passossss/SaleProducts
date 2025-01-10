@@ -1,3 +1,5 @@
+package FisrtProj;
+
 public class Vestido extends Roupa {
     private float preco;
 

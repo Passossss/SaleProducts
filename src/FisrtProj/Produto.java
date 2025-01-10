@@ -1,3 +1,5 @@
+package FisrtProj;
+
 public interface Produto {
     String getNome();
     String getMarca();

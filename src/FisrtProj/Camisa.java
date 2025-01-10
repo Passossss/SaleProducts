@@ -1,19 +1,21 @@
-public class Calca extends Roupa {
+package FisrtProj;
+
+public class Camisa extends Roupa {
     private float preco;
 
-    public Calca(String tamanho, String cor, float preco) {
+    public Camisa(String tamanho, String cor, float preco) {
         super(tamanho, cor);
         this.preco = preco;
     }
 
     @Override
     public String getNome() {
-        return "Leg";
+        return "T-shirt";
     }
 
     @Override
     public String getMarca() {
-        return "Balmain";
+        return "Nike";
     }
 
     @Override
@@ -28,7 +30,7 @@ public class Calca extends Roupa {
 
     @Override
     public float calcularPrecoFinal(float acrescimo) {
-        float desconto = preco * 0.15f;
+        float desconto = preco * 0.1f;
         return preco + acrescimo - desconto;
     }
 }

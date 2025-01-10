@@ -1,3 +1,5 @@
+package FisrtProj;
+
 public abstract class Roupa implements Produto {
     private String tamanho;
     private String cor;
