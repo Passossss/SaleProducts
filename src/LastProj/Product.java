@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+package LastProj;
 
 class Product {
     private int id;
@@ -43,4 +42,3 @@ class Product {
         return "ID: " + id + ", Nome: " + name + ", Preço: R$ " + price + ", Estoque: " + stock;
     }
 }
-
